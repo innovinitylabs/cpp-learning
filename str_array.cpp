@@ -6,11 +6,9 @@ int main(){
 
     int numbers[4] = { 5,10,15,20};
 
-    std::cout << "length of name is ";
-    std::cout << name.length();
+    std::cout << "length of name is "  << name.length() << '\n';
 
-    std::cout << "\n array sum is ";
-    std::cout << numbers[1] + numbers [3] << '\n';
+    std::cout << "\narray sum is " << numbers[1] + numbers [3] << '\n';
 
     return 0;
 
