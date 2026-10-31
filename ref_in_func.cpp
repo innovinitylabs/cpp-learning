@@ -3,8 +3,9 @@
 
 void change(int& n){
     n = 111;
-    // when this function is called with a parameter 
-    // the veriabl which is passed as parameter changes to n
+    // n is a reference, so changing n changes the original variable
+    // passed to the function.
+    // n is another name for the variable passed to the function.
 }
 
 int main() {
